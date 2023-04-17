@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">  
+            <img src="images/matcher.png" alt="Logo" class="logo">
+        </div>
+        <div class="title">
+            <p>Register</p>
+        </div>
+        <form>
+            <div class="field">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="field">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="field">
+                <label for="password"> Confirm Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="wrapper-checkbox">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">
+                    I agree to the <a href="#" class="terms-link"> Terms and Conditions</a>
+                </label>
+            </div>
+            <button type="submit" class="btn">SIGNUP</button>
+        </form>
+        <div class="signin"> Already a member? <a href="#"> Login </a></div>
+    </div>
+</body>
+</html>
